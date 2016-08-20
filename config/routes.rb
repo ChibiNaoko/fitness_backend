@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       devise_for :managers, path: "auth", path_names: {sign_in: "login",
         sign_out: "logout", password: "secret", confirmation: "verification",
         registration: "register", sign_up: "cmon_let_me_in"}
+      resources :users
     end
   end
 end

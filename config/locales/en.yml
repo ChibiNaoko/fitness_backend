@@ -27,3 +27,12 @@ en:
     logout_fail: "Logout fail!"
     registry_success: "Registry success!"
     registry_fail: "Registry fail!"
+    trainer:
+      create_success: "create trainer success!"
+      update_success: "update trainer success!"
+      update_fail: "update trainer fail!"
+    customer:
+      create_success: "create customer success!"
+      update_success: "update customer success!"
+    delete_user_success: "delete user success!"
+    delete_user_fail: "delete user fail!"

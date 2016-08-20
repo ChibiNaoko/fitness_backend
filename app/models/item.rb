@@ -1,5 +1,5 @@
 class Item < ActiveRecord::Base
-  has_may :transaction_items
-  has_many :transactions, through: :transaction_items
+  has_many :negotiate_items
+  has_many :negotiates, through: :negotiate_items
   belongs_to :manager
 end
