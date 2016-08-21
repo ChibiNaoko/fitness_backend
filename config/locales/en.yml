@@ -36,3 +36,9 @@ en:
       update_success: "update customer success!"
     delete_user_success: "delete user success!"
     delete_user_fail: "delete user fail!"
+    item:
+      create_success: "Create item success!"
+      update_success: "update item success!"
+      update_fail: "update item fail!"
+      delete_success: "delete item success!"
+      delete_fail: "delete item fail!"
